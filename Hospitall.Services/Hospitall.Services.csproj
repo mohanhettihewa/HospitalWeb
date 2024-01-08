@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hospitall.Models\Hospitall.Models.csproj" />
+    <ProjectReference Include="..\Hospitall.Utitilities\Hospitall.Utitilities.csproj" />
+    <ProjectReference Include="..\Hospitall.ViewModel\Hospitall.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
